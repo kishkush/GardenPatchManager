@@ -31,7 +31,7 @@ public class SetupPatchActivity extends Activity {
 		
 		View dview = inflater.inflate(R.layout.add_plant_dialog, null);
 		builder.setView(dview);
-		Spinner spinner = (Spinner)dview.findViewById(R.id.spinner1);
+		Spinner spinner = (Spinner)dview.findViewById(R.id.spinner_plant_family);
 		// Create an ArrayAdapter using the string array and a default spinner layout
 		ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.plants_family_array, android.R.layout.simple_spinner_item);
 		// Specify the layout to use when the list of choices appears
